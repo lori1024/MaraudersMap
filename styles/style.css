@@ -1,0 +1,68 @@
+html {
+  font-size: 40px;
+  font-family: 'Dancing Script', cursive;
+}
+
+
+html {
+  /*background-color: #E6CEAC;*/
+  background-color: #450205;
+}
+
+body {
+  /*width: 500px;*/
+  margin: 0 auto;
+  background-color: #450205;
+  padding: 0 auto;
+}
+.imgw {
+  display: block;
+  text-align: center;
+  margin-left:  0 auto;
+  margin-right: 0 auto;
+
+}
+
+.swear {
+  margin: 0 auto;
+  padding:0 auto; 
+  text-align: center; 
+  width: 10%;
+  top:73%;
+  left:24%;
+  position:absolute;
+  color: #490e10;
+  font-size:60%;
+/*  line-height: 12%;
+  letter-spacing: 10%;*/
+}
+
+.viewDiv{
+  margin: 0 auto;
+  padding:0 auto; 
+  border:none;
+  text-align: center;
+  top:66%;
+  left:68%;
+  color: #490e10;
+  position:absolute;
+  
+}
+.viewDiv span {
+  display: block;
+  color: #490e10;
+  background-color: #E6CEAC;
+  border:none;
+  margin:0;
+  padding:0;
+  font-size: 20px;
+  font-family: 'Dancing Script', cursive;
+}
+.viewDiv button {
+  color: #490e10;
+  background-color: #E6CEAC;
+  border:none;
+  margin:1;
+  padding:1;
+}
+

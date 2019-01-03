@@ -1,0 +1,50 @@
+html {
+  font-size: 40px;
+  font-family: 'Dancing Script', cursive;
+}
+
+
+html {
+  /*background-color: #E6CEAC;*/
+  background-color: #450205;
+}
+
+body {
+  /*width: 500px;*/
+  margin: 0 auto;
+  background-color: #450205;
+  padding: 0 auto;
+}
+.imgw {
+  display: block;
+  text-align: center;
+  position: relative;
+  margin-left:  0 auto;
+  margin-right: 0 auto;
+
+}
+
+#masashi {
+  position: absolute;
+  top: 200px;
+  left: 700px;
+
+}
+/*top 250 240 230 220 210 200 190 185 180 180
+left 610 620 605 615 595 605 590 600 575 565*/
+/*top 380 360 340 320 300 
+left 205 215 205 215 205
+*/
+/*300 290 280 270 260
+1005 1025 1040 1065 1080*/
+#lori {
+  position: absolute;
+  top: 285px;
+  left: 595px;
+}
+/*top 290 270 250 230 190
+left 490 500 497 505 545*/
+/*360 340 320 300 280
+255 265 255 265 255*/
+/*280 270 260 250 240
+1055 1075 1090 1105 1123*/

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <link href="styles/mapStyle.css" rel="stylesheet" type="text/css">
+
+    
+
+    <style type="text/css">
+     * {cursor: url(images/Cursor_wand.png), auto;}
+    </style>
+    <title>I Love ya</title>
+  </head>
+  <body> 
+  	<div class="imgw"  text-align:center>
+        <img id = "background" src="images/Map_background.jpg" alt="Front image">
+        <img id = "masashi" src="images/masashi_flag.png" width ="165" alt="back image"/>
+        <img id = "lori" src="images/lori_flag.png" width ="120" alt="flag image"/>
+   <!--  <div class="swear">I solemnly swear<br/> 
+    I am up to no good</div> -->
+    </div>
+    <script>
+    
+// var ca=document.getElementById("masashi")
+// ca.style.left=575+'px';
+
+var x=0
+var pathTopM = [200, 190, 185, 180, 180,380, 360, 340, 320,300,300, 295 ,280, 275, 260]
+var pathLeftM =[705, 690, 700 ,675, 665,208, 214, 201, 218, 204,1005 ,1020, 1040 ,1070, 1080]
+var pathTopL=[290, 270, 250, 230, 190,360 ,340, 320, 300, 280,280,270, 260, 250, 240]
+var pathLeftL = [ 590, 600, 597, 605, 645,255, 267, 245, 263, 250,1055 ,1075, 1095, 1105, 1123]
+function time1(){
+  x++;
+  x=x%15;
+var masashi = document.getElementById("masashi")
+var lori = document.getElementById("lori")
+masashi.style.left=pathLeftM[x]+'px';
+masashi.style.top=pathTopM[x]+'px';
+lori.style.left=pathLeftL[x]+'px';
+lori.style.top=pathTopL[x]+'px';
+}setInterval("time1()",800)
+
+</script>
+     <audio autoplay hidden controls id="playAudio1">        
+       <source src="music/ilv.mp3" type="audio/mp3">
+   </audio> 
+   <audio autoplay loop controls id="playAudio">       
+       <source src="music/hp.mp3"t ype="audio/mp3">
+     </audio>  
+    <script type = "text/javascript" src="scripts/movesteps.js"></script> 
+  </body>
+</html>
